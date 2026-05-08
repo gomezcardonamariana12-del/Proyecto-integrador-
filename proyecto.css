@@ -1,4 +1,5 @@
 body{
+  margen:0;
 font-family: Arial;
 background-color: rgb(160, 164, 177);
 }
@@ -6,18 +7,24 @@ header{
   display:flex;
   justify-content:space-between ;
    align-items: center;
+   width: 100%;
+   padding: 20 px;
 }
-
+.menu{
+  text-align: center;
+}
 .caja{
+  
   background-color: rgb(178, 203, 224);
    text-align: center;
    padding: 20px;
 }
 
 .opciones {
+ 
   display:flex;
   justify-content:center ;
-  margin-top: 50px;
+  margin-top: 100px;
   gap: 30px ;
 }
 
