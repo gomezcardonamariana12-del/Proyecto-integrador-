@@ -2,6 +2,12 @@ body{
 font-family: Arial;
 background-color: rgb(160, 164, 177);
 }
+header{
+  display:flex;
+  justify-content:flex-start ;
+   
+   gap: 50px;
+}
 
 .caja{
    justify-content:space-between;
@@ -9,8 +15,8 @@ background-color: rgb(160, 164, 177);
     display: flex;
 }
 .menu {
-  text-align:center;
-   display: flex;
+  
+   
   
 }
 .opciones {
