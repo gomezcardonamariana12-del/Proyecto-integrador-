@@ -1,13 +1,22 @@
-header{
-  display: flex;
-  justify-content:space-between;
-  align-items: center;
-}
-.menu {
-  display: flex;
-  gap:20px;
+body{
+font-family: Arial;
+background-color: rgb(160, 164, 177);
 }
 
+.caja{
+   justify-content:space-between;
+  align-items: center;
+    display: flex;
+}
+.menu {
+  text-align:center;
+   display: flex;
+  
+}
+.opciones {
+  display:flex;
+  gap:20px
+}
 
 
 
