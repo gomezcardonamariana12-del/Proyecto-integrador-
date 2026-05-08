@@ -4,9 +4,8 @@ background-color: rgb(160, 164, 177);
 }
 header{
   display:flex;
-  justify-content:flex-start ;
-   
-   gap: 50px;
+  justify-content:space-between ;
+   align-items: center;
 }
 
 .caja{
@@ -21,7 +20,7 @@ header{
 }
 .opciones {
   display:flex;
-  gap:20px
+  
 }
 
 
