@@ -9,17 +9,15 @@ header{
 }
 
 .caja{
-   justify-content:space-between;
-  align-items: center;
-    display: flex;
+  background-color: rgb(178, 203, 224);
+   text-align: center;
+   padding: 20px;
 }
-.menu {
-  
-   
-  
-}
+
 .opciones {
   display:flex;
+  justify-content:center ;
+  margin-top: 50px;
   gap: 30px ;
 }
 
