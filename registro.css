@@ -14,3 +14,13 @@ h2{
     margin-top:40px;
 }
 
+form{
+    width:400px;
+    margin:40px auto;
+    background-color:white;
+    padding:30px;
+    border-radius:15px;
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
