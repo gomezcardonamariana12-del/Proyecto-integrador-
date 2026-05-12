@@ -1,5 +1,5 @@
 body{
-  margen:0;
+  margin:0;
 font-family: Arial;
 background-color: rgb(160, 164, 177);
 }
@@ -8,7 +8,7 @@ header{
   justify-content:space-between ;
    align-items: center;
    width: 100%;
-   padding: 20 px;
+   padding: 20px;
 }
 .menu{
   text-align: center;
