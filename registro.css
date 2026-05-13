@@ -1,7 +1,8 @@
 body{
     margin:0;
     font-family: Arial;
-    background-color: rgb(160, 164, 177);
+background-color: #f3d3a0;
+    
 }
 
 h1{
@@ -29,13 +30,13 @@ form{
 {
     padding:5px;
     border-radius:8px;
-    border:1px solid gray;
+    border:1px solid #F79065;;
 }
 button{
     padding:12px;
     border:none;
     border-radius:8px;
-    background-color:rgb(34, 41, 63);
+    background-color: #B04617;;
     color:white;
     cursor:pointer;
 
