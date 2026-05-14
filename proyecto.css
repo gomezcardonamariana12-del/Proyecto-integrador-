@@ -1,7 +1,7 @@
 body{
   margin:0;
-  font-family: Arial;
-  background-color:#ffffff;
+font-family: Arial;
+background-color: rgb(160, 164, 177);
 }
 
 
@@ -21,51 +21,13 @@ header{
 }
 
 .menu{
-  background:#218490;
-  padding:10px 15px;
-  border-radius:8px;
+  text-align: center;
 }
-
-
-.buscador{
-  position: static;
-  width: 100%;
-  display:flex;
-  justify-content:center;
-  padding:15px;
-  background:#ffffff;
-}
-
-.buscador input{
-  width:60%;
-  padding:10px;
-  border-radius:8px;
-  border:1px solid #ccc;
-}
-
-
-.banner{
-  width:100%;
-  height:300px;
-  background:linear-gradient(
-    to right,
-    #13424C,
-    #218490
-  );
-  display:flex;
-  align-items:center;
-  justify-content:center;
-  color:white;
-  text-align:center;
-}
-
-.banner h1{
-  font-size:40px;
-  margin:0;
-}
-
-.banner p{
-  margin-top:10px;
+.caja{
+  
+  background-color: rgb(178, 203, 224);
+   text-align: center;
+   padding: 20px;
 }
 
 
