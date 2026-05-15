@@ -1,3 +1,26 @@
+
+header{
+  position: static;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 40px;
+  background-color:#13424C;
+  color:white;
+}
+
+.logo{
+  font-size:20px;
+  font-weight:bold;
+}
+
+.menu{
+  background:#218490;
+  padding:10px 15px;
+  border-radius:8px;
+}
+
+
 body{
     margin:0;
     font-family: Arial;
