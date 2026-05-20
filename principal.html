@@ -1,52 +1,84 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Universidad</title>
-  <link rel="stylesheet" href="proyecto.css">
-</head>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Universidad</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="proyecto.css" />
+  </head>
 
-<body>
+  <body>
+    <header>
+      <section class="logo">Universidad</section>
+      <section class="menu">Menu</section>
+    </header>
 
-<header>
-  <section class="logo">Universidad</section>
-  <section class="menu">Menu</section>
-</header>
+    <section class="buscador">
+      <input type="text" placeholder="Buscar..." />
+    </section>
 
-<section class="buscador">
-  <input type="text" placeholder="Buscar...">
-</section>
+    <section class="">
+      <section class="banner">
+        <div
+          id="carouselExampleRide"
+          class="carousel slide"
+          data-bs-ride="true"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="img/Banner.jpg" class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="..." />
+            </div>
+            <div class="carousel-item">
+              <img src="..." class="d-block w-100" alt="..." />
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#carouselExampleRide"
+            data-bs-slide="prev"
+          >
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#carouselExampleRide"
+            data-bs-slide="next"
+          >
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </section>
+    </section>
 
-<section class="banner">
-  <section class="banner-texto">
-    <img src="img/Banner.jpg" class="img-banner" >
-  </section>
-</section>
+    <section class="opciones">
+      <a href="pregrado.html" class="caja">
+        <img src="img/Pregrados.jpg" alt="Pregrados" />
+        <h3>Pregrados</h3>
+      </a>
 
-<section class="opciones">
+      <a href="posgrados.html" class="caja">
+        <img src="img/posgrado.jpg" alt="Posgrados" />
+        <h3>Posgrados</h3>
+      </a>
 
-  <a href="pregrado.html" class="caja">
-    <img src="img/Pregrados.jpg" alt="Pregrados">
-    <h3>Pregrados</h3>
-  </a>
+      <a href="idiomas.html" class="caja">
+        <img src="img/idiomas.jpg" alt="Idiomas" />
+        <h3>Idiomas</h3>
+      </a>
 
-  <a href="posgrados.html" class="caja">
-    <img src="img/posgrado.jpg" alt="Posgrados">
-    <h3>Posgrados</h3>
-  </a>
-
-  <a href="idiomas.html" class="caja">
-    <img src="img/idiomas.jpg" alt="Idiomas">
-    <h3>Idiomas</h3>
-  </a>
-
-  <a href="tecnicas.html" class="caja">
-    <img src="img/Técnicas.jpg" alt="Técnicas">
-    <h3>Técnicas</h3>
-  </a>
-
-</section>
-
-</body>
+      <a href="tecnicas.html" class="caja">
+        <img src="img/Técnicas.jpg" alt="Técnicas" />
+        <h3>Técnicas</h3>
+      </a>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
 </html>
