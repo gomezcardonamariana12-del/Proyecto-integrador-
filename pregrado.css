@@ -1,0 +1,42 @@
+body{
+  margin:0;
+  font-family:Arial, Helvetica, sans-serif;
+  background:#f4f4f4;
+}
+
+.contenedor{
+  padding:40px;
+}
+
+.titulo{
+  text-align:center;
+  color:#13424C;
+  margin-bottom:40px;
+}
+
+.tarjetas{
+  display:grid;
+  grid-template-columns:repeat(auto-fit, minmax(300px,1fr));
+  gap:25px;
+}
+
+.tarjeta{
+  background:white;
+  padding:25px;
+  border-radius:15px;
+  box-shadow:0px 4px 10px rgba(0,0,0,0.1);
+  transition:0.3s;
+}
+
+.tarjeta:hover{
+  transform:scale(1.03);
+}
+
+.tarjeta h2{
+  color:#13424C;
+}
+
+.tarjeta p{
+  color:#444;
+  line-height:1.5;
+}
