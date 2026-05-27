@@ -15,53 +15,87 @@
 
   <body>
     <header>
-      <section class="logo">UniversidadML</section>
-      <section class="menu">Menu</section>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">universidadML</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Features</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
     </header>
 
     <section class="buscador">
       <input type="text" placeholder="Buscar..." />
     </section>
 
-    <section class="">
-      <section class="banner">
-        <div
-          id="carouselExampleRide"
-          class="carousel slide"
-          data-bs-ride="true"
-        >
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="img/Banner.jpg" class="d-block w-100" alt="Inscripciones abiertas" />
-            </div>
-            <div class="carousel-item">
-              <img src="img/Banner2.jpg" class="d-block w-100" alt="Escuelas deportivas" />
-            </div>
-            <div class="carousel-item">
-              <img src="img/Banner3.jpg" class="d-block w-100" alt="Instalaciones universidad" />
-            </div>
-          </div>
-          <button
-            class="carousel-control-prev"
-            type="button"
-            data-bs-target="#carouselExampleRide"
-            data-bs-slide="prev"
-          >
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button
-            class="carousel-control-next"
-            type="button"
-            data-bs-target="#carouselExampleRide"
-            data-bs-slide="next"
-          >
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
+    <div id="carouselExampleRide" class="carousel slide" data-bs-ride="true">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img
+            src="img/Banner.jpg"
+            class="d-block w-100"
+            alt="Inscripciones abiertas"
+          />
         </div>
-      </section>
-    </section>
+        <div class="carousel-item">
+          <img
+            src="img/Banner2.jpg"
+            class="d-block w-100"
+            alt="Escuelas deportivas"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="img/Banner3.jpg"
+            class="d-block w-100"
+            alt="Instalaciones universidad"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        type="button"
+        data-bs-target="#carouselExampleRide"
+        data-bs-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#carouselExampleRide"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
 
     <section class="opciones">
       <a href="pregrado.html" class="caja">
@@ -83,19 +117,14 @@
         <img src="img/Técnicas.jpg" alt="Técnicas" />
         <h3>Técnicas</h3>
       </a>
-      
     </section>
 
-      <div class="barra-inferior">
-        <p class="texto-info">
-            Síguenos en nuestras redes sociales: @universidadML y Línea de atención: (57) 604 2619500, ext. 9188
-        </p>
-       
+    <div class="barra-inferior">
+      <p class="texto-info">
+        Síguenos en nuestras redes sociales: @universidadML y Línea de atención:
+        (57) 604 2619500, ext. 9188
+      </p>
     </div>
-
-      
-    
-
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"

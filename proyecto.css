@@ -1,6 +1,5 @@
 body{
-  margin: 0;
-  padding-top: 100px;
+  margin: 5px;
   font-family: Arial;
   background-color:#ffffff;
 }
@@ -43,7 +42,6 @@ header{
   border-radius:8px;
   border:1px solid #ccc;
 }
-
 
 .banner{
   width:100%;
@@ -115,7 +113,7 @@ header{
 .barra-inferior {
     position: fixed;
     bottom: 0;
-    left: 0;
+  
     width: 100%;
     height: 100px;
     background-color: #091a21;
@@ -123,8 +121,8 @@ header{
 
 .texto-info {
     position: absolute;
-    top: 15px;
-    left: 500px;
+   text-align: center;
+    padding: 15px;
     color: #b7d2da;
     font-family: Arial, sans-serif;
     font-size: 16px;
