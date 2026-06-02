@@ -70,4 +70,12 @@ body{
   padding:0 20px 15px;
 }
 
+.btn-inscribirme {
+  background-color: #13424C;
+  color: white;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
 
