@@ -83,3 +83,11 @@ body{
 .btn-inscribirme:hover{
   transform:scale(1.05);
 }
+
+.img-idioma {
+ position: static;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-top: 20px;
+}

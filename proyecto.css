@@ -111,7 +111,7 @@ header{
 }
 
 .barra-inferior {
-    position: fixed;
+    position: sticky;
     bottom: 0;
   
     width: 100%;
@@ -126,4 +126,25 @@ header{
     color: #b7d2da;
     font-family: Arial, sans-serif;
     font-size: 16px;
+}
+
+.navbar {
+  background-color: #ffffff;
+  border-bottom: 2px solid #218490;
+}
+
+.navbar-brand {
+  color: #218490;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+
+
+.navbar-toggler {
+  border: 1px solid #218490;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
 }
